@@ -1,4 +1,4 @@
-package in.bushansirgur.ghbliapi.dto;
+package in.chris.ghbliapi.dto;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package in.bushansirgur.ghbliapi.client;
+package in.chris.ghbliapi.client;
 
-import in.bushansirgur.ghbliapi.dto.TextToImageRequest;
+import in.chris.ghbliapi.dto.TextToImageRequest;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 @FeignClient(
         name = "stabilityAiClient",
         url = "${stability.api.base-url}",
-        configuration = in.bushansirgur.ghbliapi.config.FeignConfig.class
+        configuration = in.chris.ghbliapi.config.FeignConfig.class
 )
 public interface StabilityAIClient {
 

@@ -1,4 +1,4 @@
-package in.bushansirgur.ghbliapi.config;
+package in.chris.ghbliapi.config;
 
 import feign.codec.Encoder;
 import feign.form.spring.SpringFormEncoder;

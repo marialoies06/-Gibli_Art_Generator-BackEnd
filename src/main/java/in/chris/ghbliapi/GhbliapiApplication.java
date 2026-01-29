@@ -1,4 +1,4 @@
-package in.bushansirgur.ghbliapi;
+package in.chris.ghbliapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

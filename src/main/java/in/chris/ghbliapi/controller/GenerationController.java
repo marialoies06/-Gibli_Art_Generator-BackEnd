@@ -1,7 +1,7 @@
-package in.bushansirgur.ghbliapi.controller;
+package in.chris.ghbliapi.controller;
 
-import in.bushansirgur.ghbliapi.dto.TextGenerationRequestDTO;
-import in.bushansirgur.ghbliapi.service.GhibliArtService;
+import in.chris.ghbliapi.dto.TextGenerationRequestDTO;
+import in.chris.ghbliapi.service.GhibliArtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +10,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin(origins = {"http://localhost:5173", "http://127.0.0.1:5173"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://127.0.0.1:5173"})  // This line
 @RequiredArgsConstructor
 public class GenerationController {
 
